@@ -37,8 +37,8 @@ The workflow is simple:
 ## Download
 
 1. Go to [Releases](../../releases)
-2. Download `Ziggy.zip`
-3. Extract and double-click `Ziggy.exe`
+2. Download `Ziggy.exe`
+3. Double-click `Ziggy.exe` and enjoy!
 
 No Python required. No installation. No terminal. It just works.
 

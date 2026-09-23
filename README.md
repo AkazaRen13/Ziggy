@@ -1,12 +1,7 @@
 # Ziggy — Local AI Search Assistant
 
-Ziggy is a lightweight always-on-top desktop assistant that lives as a small animated circle in the corner of your screen. Click it, type a question, and it searches the web in real time — then uses a locally-running Qwen2.5 1.5B language model to synthesize the top results into a single, direct plain-language answer. No browser tab, no links, no account, no cloud. Everything runs on your machine.
-
----
-
-## Demo
-
-![demo](demo.gif)
+Want to search somthing fast, but too lazy to open google? Ziggy is here for you!
+Ziggy is a lightweight desktop assistant that stays at down-right corner of your screen. It has a small ai model built in it that searches the internet for your answer and gives you the summary. Just like google but easier! Isnt that great? Ziggy uses live search so don't worry about hallucilantions. Its so small that you wont even notice it running in background. All ziggy needs is a internet connection and your questions.
 
 ---
 
@@ -16,13 +11,13 @@ Most AI assistants either require a paid subscription, send your queries to a re
 
 The workflow is simple:
 - Ziggy sits as a small animated circle in the bottom-right corner of your screen, always on top
-- Click it and a clean input bubble appears
+- Left Click it and a clean input bubble appears
 - Type your question and hit Enter
-- Ziggy searches DuckDuckGo for the top 5 results and feeds them to Qwen2.5-1.5B running locally
+- Right-click Ziggy to quit. Left click and hold Drag him anywhere on screen.
 - The model reads the search snippets and writes a direct 2-4 sentence answer
 - The answer appears in the bubble in seconds — no links, no bullet points, just information
 
-Right-click Ziggy to quit. Drag him anywhere on screen.
+
 
 ---
 
@@ -101,5 +96,3 @@ The model runs via `llama-cpp-python` using pure CPU inference with 6 threads. T
 At 1.5 billion parameters it is small enough to load in under 20 seconds on a CPU and generate a response in 5-10 seconds, while being capable enough to synthesize search snippets into coherent prose. Larger models would be more capable but unusable on CPU for interactive queries.
 
 ---
-
-*Built as part of my CS portfolio to demonstrate practical application of retrieval-augmented generation, local LLM inference, and desktop application development.*

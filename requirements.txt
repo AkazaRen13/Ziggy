@@ -1,0 +1,3 @@
+duckduckgo-search>=6.1.0
+llama-cpp-python>=0.2.90
+pyinstaller>=6.0.0

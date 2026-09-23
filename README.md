@@ -63,20 +63,6 @@ Run `build.bat` to package everything into `dist\Ziggy.exe`.
 
 ---
 
-## Project Structure
-
-ziggy/
-├── src/
-│ ├── app.py # Main application — UI, animations, search, inference
-│ ├── make_icon.py # Generates ziggy.ico from scratch, no dependencies
-│ └── models/ # Model weights go here (downloaded by setup.bat)
-├── setup.bat # Dev environment setup
-├── run.bat # Launch for testing
-├── build.bat # PyInstaller packaging
-└── README.md
-
-
-
 ---
 
 ## How the RAG Pipeline Works
